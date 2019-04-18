@@ -1,5 +1,5 @@
 
-__global__ void gpu_sqrt(char* result, int index) {
+__global__ void gpu_boolean_matcher(char* result, int index) {
    
   long element = (((long)blockIdx.x)*((long)blockDim.x) + ((long)threadIdx.x)); // maxes out at 2^42 - 1
   long maxCores = 1 << 42;
