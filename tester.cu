@@ -70,6 +70,8 @@ void test() {
       fprintf(data, "%f ms\n", average_runtime);
       //Output data to console
       printf("%f ms\n", average_runtime);
+      fflush(stdout);
+      fflush(data);
     }
     //Print total_runtime with cores
   } 
