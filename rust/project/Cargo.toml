@@ -5,4 +5,5 @@ authors = ["Victor M. Suarez <svmnotn@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-truth_tester = {git = "https://github.com/svmnotn/truth-tester" }
+truth-tester = {git = "https://github.com/svmnotn/truth-tester" }
+rayon = "1.0.3"
