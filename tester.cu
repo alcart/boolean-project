@@ -17,6 +17,7 @@ double endtime() {
   return elapsed;
 }
 
+// function handler for SIGNALS to avoid loss of data
 void handle_sigint(int sig) {
   if (sig == SIGTERM || sig == SIGINT) {
     if (data) fclose(data);
