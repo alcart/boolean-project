@@ -17,4 +17,4 @@ This will compile the code and then run it with:
 ```
 
 For all the rust code, you will need `cargo` Rust's package manager. This can easily be obtained from [rustup](https://rustup.rs/).
-After doing so, all that is needed is `cargo run` inside each of the folders under the rust folder.
+After doing so, all that is needed is `cargo run` inside each of the folders under the rust folder. As all the dependencies are managed through Cargo.
